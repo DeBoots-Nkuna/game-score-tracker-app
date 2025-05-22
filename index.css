@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* titles */
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 7px;
+    color: #EEEEEE;
+}
+
+h2{
+    font-family: "Cursed Timer ULiL",sans-serif;
+    font-size: 3.4em;
+    color:#F94F6D;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+
+/* score container */
+.score{
+    background-color: #080001;
+    text-align: center;
+    width: 110px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+/* buttons */
+
+.btn{
+    background-color: transparent;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    padding:6px;
+    color: #9AABD8;
+    font-family: "Cursed Timer ULiL",sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+    
+}
+
+/* reset container */
+
+#reset-btn{
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
